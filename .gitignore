@@ -1,22 +1,40 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-
-# Virtual environments
-.venv
-
+# Virtual Environment
 .venv/
+venv/
+env/
+
+# Python
 __pycache__/
-.env
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
 
-data/*.json
+# Environment Variables
+.env
 
+# VS Code
 .vscode/
-.idea/
 
+# Output Files
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build
+dist/
+build/
